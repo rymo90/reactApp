@@ -1,0 +1,19 @@
+.Main {
+  background-color: blue;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+.Header {
+  background: yellow;
+}
+.Content {
+  background-color: red;
+  text-align: center;
+}
+.Footer {
+  background-color: brown;
+  text-align: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
